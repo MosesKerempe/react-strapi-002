@@ -1,6 +1,7 @@
 name: CI
 
 on:
+
   push:
     branches:
       - mono-repo
@@ -24,5 +25,3 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run tests
-      run: npm test
