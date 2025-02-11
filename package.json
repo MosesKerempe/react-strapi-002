@@ -4,9 +4,20 @@
   "description": "1. fork\r 2. create branch from main branch\r 3. mono-repo: reactjs(vite) + strapicms\r 4. github actions: CI/CD -> pull requests to the main branch\r 5. news",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"No tests available\" && exit 0"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
 }
