@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - mono-repo
+      - main
   pull_request:
     branches:
-      - mono-repo
+      - main
 
 jobs:
   build:
@@ -24,6 +24,3 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    # Comment out or remove this step if you don't have tests
-    # - name: Run tests
-    #   run: npm test
