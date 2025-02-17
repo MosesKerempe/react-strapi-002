@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
+      - mono-repo
   pull_request:
     branches:
       - main
+      - mono-repo
 
 jobs:
   build:
